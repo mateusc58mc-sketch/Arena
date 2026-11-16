@@ -1,0 +1,26 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  },
+  "files.associations": {
+    "*.css": "css"
+  },
+  "search.exclude": {
+    "**/.next": true,
+    "**/node_modules": true,
+    "**/.vercel": true
+  },
+  "terminal.integrated.env.windows": {
+    "NEXT_PUBLIC_SUPABASE_URL": "https://zwrhlleklrgqmhdqmpvt.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable_Yb1MvDlp1MLsaOcPOQVTRw__8x6Mh6F"
+  },
+  "supabase.projectRef": "zwrhlleklrgqmhdqmpvt",
+  "continue.telemetryEnabled": false
+}

@@ -1,0 +1,36 @@
+{
+  "name": "aetheria-idle",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test:game": "node --test tests/gameEngine.test.mjs",
+    "deploy:2d": "npx -y vercel@latest link --project aetheria-idle --yes && npx -y vercel@latest deploy --prod --yes --force",
+    "deploy:arena": "npx -y vercel@latest link --project aetheria-arena --yes && npx -y vercel@latest deploy --prod --yes --force"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "@supabase/supabase-js": "^2.117.3",
+    "next": "16.4.3",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.0",
+    "fbx2gltf": "^0.9.7-p1",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

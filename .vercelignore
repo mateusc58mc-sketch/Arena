@@ -1,0 +1,5 @@
+# Raças 3D — publicar APENAS os modelos leves usados no jogo (public/racas).
+# Ficam de fora: humano (GLTF 53 MB) e as animações do orc (~8 MB por clipe).
+public/racas/humano
+public/racas/humano_out
+public/racas/orc/anims

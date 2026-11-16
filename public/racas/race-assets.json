@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-11-01T00:00:00.000Z",
+  "standardHeight": 1.8,
+  "localTestOnly": false,
+  "note": "Modelos de raça usados no jogo. Publicados apenas os arquivos leves (anao, tauren, orc, humano rigado).",
+  "races": {
+    "anao": {
+      "status": "ok",
+      "animation": "procedural",
+      "model": "/racas/anao/brann.glb",
+      "note": "GLB Sketchfab sem rig — avatar estático com animação procedural."
+    },
+    "tauren": {
+      "status": "ok",
+      "animation": "procedural",
+      "model": "/racas/tauren/tauren.glb",
+      "note": "13 peças (corpo + acessórios) sem rig — avatar estático com animação procedural."
+    },
+    "orc": {
+      "status": "ok",
+      "animation": "procedural",
+      "model": "/racas/orc/base-mesh.fbx",
+      "axe": "/racas/orc/axe.fbx",
+      "textures": "/racas/orc/tex/",
+      "note": "Malha base FBX (sem os clipes — não publicados por tamanho) — avatar estático com animação procedural."
+    },
+    "humano": {
+      "status": "ok",
+      "animation": "embedded-clips",
+      "model": "/racas/human/human_male_rigged.glb",
+      "note": "GLB rigado (680 KB) — base Mixamo BaseMesh_Man_Simple (65 bones, bind ~1,79 m) + clipes HUMANO_* embutidos (ATTACK/DEATH nativos cm + IDLE/HIT procedurais; ver lib/raceRigs.ts — este manifesto é legado)."
+    },
+    "orcwow": {
+      "status": "missing-model",
+      "note": "APENAS texturas — falta o arquivo de modelo (.fbx/.glb)."
+    }
+  }
+}

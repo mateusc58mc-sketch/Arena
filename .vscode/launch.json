@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Next.js: dev (port 3000)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run dev -- --port 3000",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "NODE_ENV": "development"
+      }
+    },
+    {
+      "name": "Next.js: build",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run build",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Next.js: tsc check",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npx tsc --noEmit",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

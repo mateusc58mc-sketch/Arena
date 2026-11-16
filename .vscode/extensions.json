@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "supabase.supabase-vscode",
+    "vercel.vercel-vscode",
+    "continue.continue",
+    "saoudrizwan.claude-dev",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "ms-vscode.vscode-typescript-next",
+    "formulahendry.auto-rename-tag",
+    "christian-kohler.path-intellisense"
+  ]
+}
